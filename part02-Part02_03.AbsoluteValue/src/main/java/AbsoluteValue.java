@@ -6,5 +6,16 @@ public class AbsoluteValue {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        double number = Double.valueOf(scanner.nextLine());
+
+        if (number >= 0) {
+            System.out.println(number);
+        } else {
+            System.out.println(number *-1);
+        }
+        
+
+     
+
     }
 }
