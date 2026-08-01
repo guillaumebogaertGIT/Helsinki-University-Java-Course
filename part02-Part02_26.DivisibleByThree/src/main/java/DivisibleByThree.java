@@ -4,8 +4,23 @@ import java.util.Scanner;
 public class DivisibleByThree {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
+        Scanner scanner = new Scanner (System.in);
+        int number = Integer.valueOf(scanner.nextLine());
+        
+        divisibleByThreeRange(1, number);
+       
+             
     }
-
+    public static void divisibleByThreeRange (int beginning, int end){
+        while (beginning <= end){
+            if (beginning %3 == 0){
+                System.out.println(beginning);
+            }
+            beginning++;
+        }
+    }
 }
+
+    
+
+
