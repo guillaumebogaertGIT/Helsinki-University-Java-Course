@@ -1,7 +1,6 @@
 
-public class Main {
 
-    public static void main(String[] args) {
+        
         // Test your Multiplier class here
 
         // Multiplier multiplyByThree = new Multiplier(3);
