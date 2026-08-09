@@ -8,7 +8,26 @@ public class Items {
         // implement here your program that uses the class Item
 
         ArrayList<Item> items = new ArrayList<>();
+        
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Name: ");
+       
+        while (true) {
+        String name =  scanner.nextLine();
+        if (name.isEmpty()) {
+            break;
+        } else {
+            Item item = new Item(name);
+            items.add(item);
+        }
+        for (Item item : items) {
+            System.out.println(item);
+        }
+        
+    }
+
+
 
     }
 }
