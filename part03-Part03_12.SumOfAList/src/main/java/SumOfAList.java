@@ -15,30 +15,9 @@ public class SumOfAList {
             }
 
             list.add(input);
-           
         }
-          int sum = 0 ;
-            for (int number : list) {
-                sum += number ;
-            }          
-/* 
-number does not come from input. It is a new variable created by the for-each loop.
 
-Look at this:
-
-for (int number : list) {
-    sum += number;
-}
-
-The structure is:
-
-for (type variable : list)
-
-Meaning:
-
-"Take every item from list, and temporarily call it number." */
-
-        System.out.println("Sum: " + sum);
+        System.out.println("");
 
         // toteuta listan lukujen summan laskeminen tänne
     }

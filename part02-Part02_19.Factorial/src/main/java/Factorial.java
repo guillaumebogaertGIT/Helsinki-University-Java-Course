@@ -13,7 +13,7 @@ public class Factorial {
         int result = 1;
 
         while (i <= n){
-            result *= i;
+            result = result *i;
             i++;
         }
         System.out.println("Factorial: " + result);

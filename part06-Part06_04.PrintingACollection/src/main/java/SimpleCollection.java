@@ -23,7 +23,7 @@ public class SimpleCollection {
         if (this.elements.isEmpty()) {
             return "The collection " +this.name +" is empty.";
         }
-        String list = "" ;
+        String list = "";
         for (String element : this.elements) {
             list = list + element + "\n";
         }

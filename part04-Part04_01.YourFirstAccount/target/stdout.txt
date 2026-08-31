@@ -1,3 +1,0 @@
-Initial state: 
-EasyMock for class Account
-Balance account one: EasyMock for class Account

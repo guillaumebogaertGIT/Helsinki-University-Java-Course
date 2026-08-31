@@ -4,15 +4,8 @@ import java.util.Scanner;
 public class Word {
 
     public static void main(String[] args) {
-        System.out.println(word());
+        Scanner scanner = new Scanner(System.in);
 
-
-    }
-    public static String word(){
-       
-
-        
-        return "looks good";
     }
 
 }

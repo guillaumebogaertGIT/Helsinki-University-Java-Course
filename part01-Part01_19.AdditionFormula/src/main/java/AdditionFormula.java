@@ -15,7 +15,8 @@ public class AdditionFormula {
 
         int sum = v1 + v2;
 
-        System.out.println(v1 + " + " + v2 + " = " + sum);
-
+        System.out.print(v1 + " + ");
+        System.out.print( v2 + " = ");
+        System.out.print( sum);
     }
 }

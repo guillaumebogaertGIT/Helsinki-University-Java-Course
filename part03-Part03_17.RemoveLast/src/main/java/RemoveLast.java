@@ -1,26 +1,10 @@
+
 import java.util.ArrayList;
 
 public class RemoveLast {
 
     public static void main(String[] args) {
-        ArrayList<String> strings = new ArrayList<>();
-
-        strings.add("hi");
-        strings.add("you");
-        strings.add("are");
-        strings.add("pretty");
-
-        removeLast(strings);
-
-        System.out.println(strings);
+        // Try your method in here
     }
 
-
-    public static void removeLast(ArrayList<String> strings) {
-        if (strings.size() == 0) {
-            return;
-        }
-
-        strings.remove(strings.size() - 1);
-    }
 }

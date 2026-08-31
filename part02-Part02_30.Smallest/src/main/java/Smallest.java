@@ -5,11 +5,7 @@ public class Smallest {
         // Write some code here
         // don't print anything inside this method
         // there must be a return in the end of the method
-        if (number1 < number2) {
-            return number1;
-        } else {
-            return number2;
-        }
+        return -1;
     }
 
     public static void main(String[] args) {

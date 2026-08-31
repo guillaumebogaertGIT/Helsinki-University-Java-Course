@@ -15,14 +15,14 @@ public class RecordsFromAFile {
             while (fileScanner.hasNextLine()) {
                 String line = fileScanner.nextLine();
 
-                String[] parts = line.split(",");
+                String [] parts = line.split(",");
                 String name = parts[0];
                 int age = Integer.valueOf(parts[1]);
 
                 if (age == 1 ) {
-                    System.out.println(name +", " + " age: " +age + " year");
+                    System.out.println(name +", " + " age " +age + " year");
                 } else {
-                    System.out.println(name +", " +  " age: " + age + " years");
+                    System.out.println(name +", " +  " age " + age + " years");
                 }
 
             }

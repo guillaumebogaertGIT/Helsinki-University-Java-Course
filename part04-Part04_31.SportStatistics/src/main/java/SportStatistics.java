@@ -1,5 +1,6 @@
 
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SportStatistics {
@@ -16,7 +17,7 @@ public class SportStatistics {
 
         int games = 0;
         int wins = 0;
-        int losses = 0;
+        int loses = 0;
 
         try (Scanner fileScanner = new Scanner(Paths.get(file))) {
             while (fileScanner.hasNextLine()) {
@@ -35,7 +36,7 @@ public class SportStatistics {
                     if (homePoints > awayPoints) {
                         wins++;
                     } else {
-                        losses++;
+                        loses++;
                     }
                     
                 }
@@ -43,7 +44,7 @@ public class SportStatistics {
                         if (awayPoints > homePoints) {
                             wins++;
                         } else {
-                            losses++;
+                            loses++;
                         }
                     }
                 
@@ -54,7 +55,7 @@ public class SportStatistics {
         }
         System.out.println("Games: " + games);
         System.out.println("Wins: " + wins);
-        System.out.println("Losses: " + losses);
+        System.out.println("Losses: " + loses);
        
 
     }
